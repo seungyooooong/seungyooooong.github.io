@@ -365,6 +365,8 @@ th {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 label {
@@ -11666,4 +11668,11 @@ section#contact form#contactForm :-ms-input-placeholder {
     text-align: center;
     font-size: 0.9rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.myTheadBorderBottom {
+    border-bottom: 2px solid !important;
+}
+.myTbodyBorderBottom > tr {
+    border-bottom: 1px solid gray !important;
 }
