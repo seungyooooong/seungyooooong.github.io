@@ -102,7 +102,7 @@
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h2 class="section-heading text-uppercase mb-5">Portfolio</h2>
                 <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
             <div class="row">
@@ -131,7 +131,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Android App 개발 경험</div>
+                            <div class="portfolio-caption-heading">개인 Android App 개발 경험</div>
                             <div class="portfolio-caption-subheading text-muted">Alba Drop</div>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                             <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">iOS-1</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            <div class="portfolio-caption-heading">개인 iOS App 개발 경험</div>
+                            <div class="portfolio-caption-subheading text-muted">NICE for iOS</div>
                         </div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
     <section class="page-section" id="stack">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Stack</h2>
+                <h2 class="section-heading text-uppercase mb-5">Stack</h2>
                 <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
             <div class="row text-center">
@@ -219,29 +219,71 @@
                     <tbody>
                         <tr>
                             <th>Develop Tool</th>
-                            <td title="XCode"><img src="assets/img/stack/icons8-xcode-50.png" alt="XCode-icon"></td>
-                            <td title="VSCode"><img src="assets/img/stack/icons8-visual-studio-50.png" alt="VSCode-icon"></td>
-                            <td title="AndroidStudio"><img src="assets/img/stack/icons8-android-studio-50.png" alt="AndroidStudio-icon"></td>
+                            <td>
+                                <img id="Icon0" onclick="clickEvent(index = 0)" title="XCode" src="assets/img/stack/icons8-xcode-50.png" alt="XCode-icon">
+                                <div id="Text0" onclick="clickEvent(index = 0)" class="text-muted py-3" style="display: none;">Xcode</div>
+                            </td>
+                            <td>
+                                <img id="Icon1" onclick="clickEvent(index = 1)" title="VSCode" src="assets/img/stack/icons8-visual-studio-50.png" alt="VSCode-icon">
+                                <div id="Text1" onclick="clickEvent(index = 1)" class="text-muted py-3" style="display: none;">VSCode</div>
+                            </td>
+                            <td>
+                                <img id="Icon2" onclick="clickEvent(index = 2)" title="AndroidStudio" src="assets/img/stack/icons8-android-studio-50.png" alt="AndroidStudio-icon">
+                                <div id="Text2" onclick="clickEvent(index = 2)" class="text-muted py-3" style="display: none;">Android Studio</div>
+                            </td>
                         </tr>
                         <tr>
                             <th>Framework</th>
-                            <td title="SwiftUI"><img src="assets/img/stack/icons8-swiftui-50.png" alt="SwiftUI-icon"></td>
-                            <td title="Vue.js"><img src="assets/img/stack/icons8-vuejs-50.png" alt="Vue.js-icon"></td>
-                            <td title="AndroidFramework"><img src="assets/img/stack/icons8-android-os-50.png" alt="AndroidFramework-icon"></td>
+                            <td>
+                                <img id="Icon3" onclick="clickEvent(index = 3)" title="SwiftUI" src="assets/img/stack/icons8-swiftui-50.png" alt="SwiftUI-icon">
+                                <div id="Text3" onclick="clickEvent(index = 3)" class="text-muted py-3" style="display: none;">SwiftUI</div>
+                            </td>
+                            <td>
+                                <img id="Icon4" onclick="clickEvent(index = 4)" title="Vue.js" src="assets/img/stack/icons8-vuejs-50.png" alt="Vue.js-icon">
+                                <div id="Text4" onclick="clickEvent(index = 4)" class="text-muted py-3" style="display: none;">Vue.js</div>
+                            </td>
+                            <td>
+                                <img id="Icon5" onclick="clickEvent(index = 5)" title="AndroidFramework" src="assets/img/stack/icons8-android-os-50.png" alt="AndroidFramework-icon">
+                                <div id="Text5" onclick="clickEvent(index = 5)" class="text-muted py-3" style="display: none;">Android Framework</div>
+                            </td>
                         </tr>
                         <tr>
                             <th>Language</th>
-                            <td title="Swift"><img src="assets/img/stack/icons8-swiftui-50.png" alt="Swift-icon"></td>
-                            <td title="JavaScript"><img src="assets/img/stack/icons8-javascript-50.png" alt="JavaScript-icon"></td>
-                            <td title="Kotlin, Java"><img src="assets/img/stack/icons8-kotlin-50.png" alt="Kotlin-icon"> <img src="assets/img/stack/icons8-java-50.png" alt="Java-icon"></td>
+                            <td>
+                                <img id="Icon6" onclick="clickEvent(index = 6)" title="Swift" src="assets/img/stack/icons8-swiftui-50.png" alt="Swift-icon">
+                                <div id="Text6" onclick="clickEvent(index = 6)" class="text-muted py-3" style="display: none;">Swift</div>
+                            </td>
+                            <td>
+                                <img id="Icon7" onclick="clickEvent(index = 7)" title="JavaScript" src="assets/img/stack/icons8-javascript-50.png" alt="JavaScript-icon">
+                                <div id="Text7" onclick="clickEvent(index = 7)" class="text-muted py-3" style="display: none;">JavaScript</div>
+                            </td>
+                            <td>
+                                <img id="Icon8" onclick="clickEvent(index = 8)" title="Kotlin" src="assets/img/stack/icons8-kotlin-50.png" alt="Kotlin-icon">
+                                <div id="Text8" onclick="clickEvent(index = 8)" class="text-muted py-3" style="display: none;">Kotlin</div>
+                                <img id="Icon9" onclick="clickEvent(index = 9)" title="Java" src="assets/img/stack/icons8-java-50.png" alt="Java-icon">
+                                <div id="Text9" onclick="clickEvent(index = 9)" class="text-muted py-3" style="display: none;">Java</div>
+                            </td>
                         </tr>
                         <tr>
                             <th>Version Control</th>
-                            <td title="Git" colspan="3"><img src="assets/img/stack/icons8-git-50.png" alt="Git-icon"></td>
+                            <td colspan="3">
+                                <img id="Icon10" onclick="clickEvent(index = 10)" title="Git" src="assets/img/stack/icons8-git-50.png" alt="Git-icon">
+                                <div id="Text10" onclick="clickEvent(index = 10)" class="text-muted py-3" style="display: none;">Git</div>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script>
+                var isVisibleList = [false, false, false, false, false, false, false, false, false, false, false]
+
+                function clickEvent(index) {
+                    $('#' + (isVisibleList[index] ? 'Text' : 'Icon') + index).hide()
+                    $('#' + (isVisibleList[index] ? 'Icon' : 'Text') + index).show()
+                    isVisibleList[index] = !isVisibleList[index]
+                }
+            </script>
             <!-- <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -253,8 +295,8 @@
     <section class="page-section bg-light" id="about">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase mb-5">About</h2>
+                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
             <ul class="timeline">
                 <li>
@@ -289,7 +331,7 @@
                             <h4 class="subheading">한국기술교육대학교<br>컴퓨터공학부 졸업</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">2015년 입학하여 4명이 한 팀으로 졸업 작품 공모전 팀원 추천 어플을 개발함. Android App 개발 담당</p>
+                            <p class="text-muted">2015년 입학하여 2021년 졸업, 4명이 한 팀으로 졸업 작품 공모전 팀원 추천 어플을 개발. Android App 개발 담당</p>
                         </div>
                     </div>
                 </li>
