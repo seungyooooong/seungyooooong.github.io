@@ -356,12 +356,12 @@ th {
     text-align: -webkit-match-parent;
 }
 
-
 thead {
     border-bottom: 2px solid !important;
 }
 
-th, td {
+th,
+td {
     border-left: 1px solid gray !important;
     border-bottom: 1px solid gray !important;
 }
@@ -370,6 +370,9 @@ th:first-child {
     border-left: none !important;
 }
 
+.hoverEvent:hover {
+    color: black !important;
+}
 
 thead,
 tbody,
