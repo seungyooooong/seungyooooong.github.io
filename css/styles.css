@@ -5987,6 +5987,12 @@ fieldset:disabled .btn {
     overflow-x: hidden;
     overflow-y: auto;
     outline: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.modal::-webkit-scrollbar {
+    display: none;
 }
 
 .modal-dialog {
