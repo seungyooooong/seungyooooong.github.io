@@ -9106,6 +9106,10 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 768px) {
+    .w-md-80 {
+        left: 10% !important;
+        width: 80% !important;
+    }
     .float-md-start {
         float: left !important;
     }
@@ -9603,6 +9607,10 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 992px) {
+    .w-lg-70 {
+        left: 15% !important;
+        width: 70% !important;
+    }
     .float-lg-start {
         float: left !important;
     }
@@ -10100,6 +10108,10 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 1200px) {
+    .w-xl-60 {
+        left: 20% !important;
+        width: 60% !important;
+    }
     .float-xl-start {
         float: left !important;
     }
