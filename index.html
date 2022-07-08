@@ -219,52 +219,52 @@
                     <tbody>
                         <tr>
                             <th>Develop Tool</th>
-                            <td title="XCode" id="Item0" onclick="clickEvent(this.id)">
+                            <td title="XCode" id="Item0" onclick="clickStack(this.id)">
                                 <img id="Icon0" src="assets/img/stack/icons8-xcode-50.png" alt="XCode-icon">
                                 <div id="Text0" class="text-muted oneLineText hoverEvent" style="display: none;">Xcode</div>
                             </td>
-                            <td title="VSCode" id="Item1" onclick="clickEvent(this.id)">
+                            <td title="VSCode" id="Item1" onclick="clickStack(this.id)">
                                 <img id="Icon1" src="assets/img/stack/icons8-visual-studio-50.png" alt="VSCode-icon">
                                 <div id="Text1" class="text-muted oneLineText hoverEvent" style="display: none;">VSCode</div>
                             </td>
-                            <td title="AndroidStudio" id="Item2" onclick="clickEvent(this.id)">
+                            <td title="AndroidStudio" id="Item2" onclick="clickStack(this.id)">
                                 <img id="Icon2" src="assets/img/stack/icons8-android-studio-50.png" alt="AndroidStudio-icon">
                                 <div id="Text2" class="text-muted twoLineText hoverEvent" style="display: none;">Android<br>Studio</div>
                             </td>
                         </tr>
                         <tr>
                             <th>Framework</th>
-                            <td title="SwiftUI" id="Item3" onclick="clickEvent(this.id)">
+                            <td title="SwiftUI" id="Item3" onclick="clickStack(this.id)">
                                 <img id="Icon3" src="assets/img/stack/icons8-swiftui-50.png" alt="SwiftUI-icon">
                                 <div id="Text3" class="text-muted oneLineText hoverEvent" style="display: none;">SwiftUI</div>
                             </td>
-                            <td title="Vue.js" id="Item4" onclick="clickEvent(this.id)">
+                            <td title="Vue.js" id="Item4" onclick="clickStack(this.id)">
                                 <img id="Icon4" src="assets/img/stack/icons8-vuejs-50.png" alt="Vue.js-icon">
                                 <div id="Text4" class="text-muted oneLineText hoverEvent" style="display: none;">Vue.js</div>
                             </td>
-                            <td title="AndroidFramework" id="Item5" onclick="clickEvent(this.id)">
+                            <td title="AndroidFramework" id="Item5" onclick="clickStack(this.id)">
                                 <img id="Icon5" src="assets/img/stack/icons8-android-os-50.png" alt="AndroidFramework-icon">
                                 <div id="Text5" class="text-muted twoLineText hoverEvent" style="display: none;">Android<br>Framework</div>
                             </td>
                         </tr>
                         <tr>
                             <th>Language</th>
-                            <td title="Swift" id="Item6" onclick="clickEvent(this.id)">
+                            <td title="Swift" id="Item6" onclick="clickStack(this.id)">
                                 <img id="Icon6" src="assets/img/stack/icons8-swiftui-50.png" alt="Swift-icon">
                                 <div id="Text6" class="text-muted oneLineText hoverEvent" style="display: none;">Swift</div>
                             </td>
-                            <td title="JavaScript" id="Item7" onclick="clickEvent(this.id)">
+                            <td title="JavaScript" id="Item7" onclick="clickStack(this.id)">
                                 <img id="Icon7" src="assets/img/stack/icons8-javascript-50.png" alt="JavaScript-icon">
                                 <div id="Text7" class="text-muted oneLineText hoverEvent" style="display: none;">JavaScript</div>
                             </td>
-                            <td title="Java" id="Item8" onclick="clickEvent(this.id)">
+                            <td title="Java" id="Item8" onclick="clickStack(this.id)">
                                 <img id="Icon8" src="assets/img/stack/icons8-java-50.png" alt="Java-icon">
                                 <div id="Text8" class="text-muted oneLineText hoverEvent" style="display: none;">Java</div>
                             </td>
                         </tr>
                         <tr>
                             <th>Version Control</th>
-                            <td colspan="3" title="Git" id="Item9" onclick="clickEvent(this.id)">
+                            <td colspan="3" title="Git" id="Item9" onclick="clickStack(this.id)">
                                 <img id="Icon9" src="assets/img/stack/icons8-git-50.png" alt="Git-icon">
                                 <div id="Text9" class="text-muted oneLineText hoverEvent" style="display: none;">Git</div>
                             </td>
@@ -272,17 +272,6 @@
                     </tbody>
                 </table>
             </div>
-            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-            <script>
-                var isVisibleList = [false, false, false, false, false, false, false, false, false, false]
-
-                function clickEvent(id) {
-                    var index = id.substring(4)
-                    $('#' + (isVisibleList[index] ? 'Text' : 'Icon') + index).hide()
-                    $('#' + (isVisibleList[index] ? 'Icon' : 'Text') + index).show()
-                    isVisibleList[index] = !isVisibleList[index]
-                }
-            </script>
             <!-- <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
@@ -606,6 +595,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
