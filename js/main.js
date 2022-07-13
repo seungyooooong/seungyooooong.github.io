@@ -22,7 +22,7 @@ function clickStack(id) {
 
 var portfolio = [{
     title: '공모전 팀원 추천 어플',
-    tagList: ['Team Project', 'Android', 'Java'],
+    tagList: ['Team Project', 'Android'],
     form: 'Android App',
     language: ['Java'],
     content: `공모전에 함께 참여할 팀원을 추천해주는 앱을 개발한 경험이 있습니다.
@@ -34,7 +34,7 @@ var portfolio = [{
     추후에 코드를 정리하고 분리하여 컴포넌트화하면 다른 프로젝트에서도 활용할 수 있을만큼 좋은 경험이 되었습니다.`
 }, {
     title: 'Alba Drop',
-    tagList: ['Android', 'Java'],
+    tagList: ['Toy Project', 'Android'],
     form: 'Android App',
     language: ['Java'],
     content: `달력 컴포넌트, shared preference 사용 & db 설계`
@@ -61,11 +61,11 @@ var portfolio = [{
     이러한 좋은 경험을 다른사람들에게도 전달해주고 싶다고 생각했는데 iOS 버전업에 따라서 HIG의 내용이 계속 갱신되다보니 최신화된 자료를 찾기가 어려웠습니다.
     그래서 최신화된 HIG를 내가 읽고 나름대로 해석도 해서 자료를 남기기로 했고 velog에 공부한 내용을 기록하게 되었습니다.`
 }, {
-    title: 'NICE for iOS',
-    tagList: ['iOS', 'Xcode', 'Swift'],
+    title: 'iOS App Dev Tutorials',
+    tagList: ['iOS', 'Xcode', 'SwiftUI'],
     form: 'iOS App',
     language: ['Swift'],
-    content: `Swift UI 사용, iOS App Store에 App 등록 요청 및 reject 경험`
+    content: `apple에서 제공하는 공식 문서를 통해 개발 공부 및 실습 진행`
 }]
 
 function initPortfolioModal(index) {
