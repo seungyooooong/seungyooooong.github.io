@@ -1,10 +1,23 @@
-var isVisibleList = [false, false, false, false, false, false, false, false, false, false]
+var stack = {
+    Xcode: false,
+    SwiftUI: false,
+    Swift: false,
+
+    VSCode: false,
+    VueJS: false,
+    JavaScript: false,
+
+    AndroidStudio: false,
+    AndroidFramework: false,
+    Java: false, 
+
+    Git: false
+}
 
 function clickStack(id) {
-    var index = id.substring(4)
-    $('#' + (isVisibleList[index] ? 'Text' : 'Icon') + index).hide()
-    $('#' + (isVisibleList[index] ? 'Icon' : 'Text') + index).show()
-    isVisibleList[index] = !isVisibleList[index]
+    $('#' + id + (stack[id] ? 'Text' : 'Icon')).hide()
+    $('#' + id + (stack[id] ? 'Icon' : 'Text')).show()
+    stack[id] = !stack[id]
 }
 
 var portfolio = [{
