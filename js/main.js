@@ -65,7 +65,13 @@ var portfolio = [{
     tagList: ['iOS', 'Xcode', 'SwiftUI'],
     form: 'iOS App',
     language: ['Swift'],
-    content: `apple에서 제공하는 공식 문서를 통해 개발 공부 및 실습 진행`
+    content: `apple에서 제공하는 공식 문서 중 iOS App Dev Tutorials를 통해 개발 공부 및 실습을 하였습니다.
+    해당 과정을 통해 총 3가지 앱을 개발하였는데, Scrumdinger라는 이름의 SwiftUI를 이용해 만든 회의 기록 App과
+    UIKit을 이용해 아이폰의 기본 앱인 미리 알림과 연동시켜 만든 Reminder,
+    Network 통신을 해서 외부 API로부터 json형태로 데이터를 받아와 지진 정보를 보여주는 Earthquake를 개발하였습니다.
+    SwiftUI와 UIKit는 화면을 구성하는 방법부터가 다르다는 것, 내부의 다른 앱으로부터 데이터를 연동하는 방법, 외부 API에서 데이터를 받아오는 법 등 다양한 부분을 재밌게 배울 수 있었습니다.
+    뿐만 아니라 Apple에서 추구하는 앱의 접근성이나 코드의 구성에 대해서도 엿볼 수 있어서 좋았습니다.
+    Swift의 경우 사용한지 오래되지 않은 언어이다보니 자료가 많이 부족하다고 느꼈는데 Apple에서 공유해준 자료인만큼 얻어갈 내용이 많다고 느꼈습니다.`
 }]
 
 function initPortfolioModal(index) {
