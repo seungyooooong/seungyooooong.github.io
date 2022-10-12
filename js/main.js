@@ -44,10 +44,10 @@ var portfolio = [{
     form: 'TV App',
     language: ['html', 'css', 'javascript'],
     content: `Aircode에 근무하면서 Vue.js를 이용해 TV App을 개발하였습니다.
-    TV App이라는 특징이 있고, 회사 내부 Framework를 일부 사용했다는 점이 아쉽긴 하지만 전체적인 틀은 WebView를 사용했기 때문에 Vue.js의 다양한 기능에 대해서 익힐 수 있었습니다.
-    대표적으로 component, prototype의 개념과 props, mixin, computed등 개념에 대해 익히고 사용하였는데,
-    Vue라는 프레임워크에 대한 이해도 뿐만 아니라 프론트엔드 개발에 대한 전반적인 이해도를 높일 수 있었습니다.
-    가장 핵심이 되는 부분은 MVC패턴이라고 느껴졌는데 개념적으로는 알고 있었지만 실제 개발에 적용해보면서 많은 것을 배우고 느낄 수 있었습니다.`
+    TV App이라는 특징이 있고, 회사 내부 Framework를 일부 사용했다는 점이 아쉽긴 하지만 전체적인 틀은 WebView를 사용했기 때문에 일반적인 웹 개발 경험과 유사하게 Vue.js의 다양한 기능에 대해서 익힐 수 있었습니다.
+    대표적으로 component, prototype의 개념과 props, mixin, computed등 개념에 대해 익히고 사용하였는데, Vue라는 프레임워크에 대한 이해도 뿐만 아니라 프론트엔드 개발에 대한 전반적인 이해도를 높일 수 있었습니다.
+    가장 핵심이 되는 부분은 MVVM패턴이라고 느껴졌는데 개념적으로는 알고 있었지만 실제 개발에 적용해보면서 Model, View, ViewModel이 각각 무엇인지 정확하게 알게되었고,
+    이들을 분리했을 때 장단점에 대해 직접 부딪히며 배울 수 있어 좋았습니다.`
 }, {
     title: 'NICE Mobile',
     tagList: ['WebApp', 'Vue.js'],
