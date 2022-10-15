@@ -85,8 +85,8 @@ var portfolio = [{
 }]
 
 function initPortfolioModal(index) {
-    if (index == 5) $("#portfolioModalImage").attr("src", "assets/img/portfolio/" + index + ".png")
-    else            $("#portfolioModalImage").attr("src", "assets/img/portfolio/" + index + ".jpg")
+    if (index > 3) $("#portfolioModalImage").attr("src", "assets/img/portfolio/" + index + ".png")
+    else           $("#portfolioModalImage").attr("src", "assets/img/portfolio/" + index + ".jpg")
     $('#portfolioModalTitle').html(portfolio[index].title)
     $('#portfolioModalTag').html(portfolio[index].tagList.join(', '))
     $('#portfolioModalForm').html(portfolio[index].form)
