@@ -11390,6 +11390,11 @@ header.masthead .masthead-heading {
     height: 300px;
 }
 
+.portfolio-modal-img {
+    width: 100%;
+    height: 250px;
+}
+
 .portfolio-modal .modal-dialog {
     margin: 1rem;
     max-width: 100vw;
