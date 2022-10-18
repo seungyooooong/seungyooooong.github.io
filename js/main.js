@@ -61,6 +61,7 @@ var portfolio = [{
     title: 'HIG Reading Series',
     tagList: ['HIG', 'iOS', 'velog'],
     form: 'velog',
+    link: 'https://velog.io/@chadange',
     language: ['markdown'],
     content: `애플에서 제공하는 UI 가이드 HIG; Human Interface Guideline을 읽고있습니다.
     처음 iOS 개발을 꿈꾸면서 공부를 위해 여러 자료를 찾아보았는데, 그때 가장 도움이 되었던 자료가 실무자가 HIG를 읽으면서 설명해주는 영상 자료였습니다.
