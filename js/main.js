@@ -91,13 +91,9 @@ function initPortfolioModal(index) {
     $('#portfolioModalTitle').html(portfolio[index].title)
     $('#portfolioModalTag').html(portfolio[index].tagList.join(', '))
     $('#portfolioModalForm').html(portfolio[index].form)
-    if (portfolio[index].link) {
-        $('#portfolioModalLink').attr("href", portfolio[index].link)
-        $('#portfolioModalLink').html(portfolio[index].link)
-    } else {
-        $('#portfolioModalLink').attr("href", '')
-        $('#portfolioModalLink').html('')
-    }
+    $('#portfolioModalLink').html('')
+    $('#portfolioModalLink').attr("href", portfolio[index].link)
+    if (portfolio[index].link) $('#portfolioModalLink').html(portfolio[index].link)
     $('#portfolioModalLanguage').html(portfolio[index].language.join(', '))
     $('#portfolioModalContent').html(newLineInHTML(portfolio[index].content))
 }
