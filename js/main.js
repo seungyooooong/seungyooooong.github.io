@@ -37,13 +37,21 @@ var portfolio = [{
     tagList: ['Toy Project', 'Android'],
     form: 'Android App',
     language: ['Java'],
-    content: `달력 컴포넌트, shared preference 사용 & db 설계`
+    content: `1인 프로젝트로 요구사항 분석부터 앱 개발까지 진행해본 경험이 있습니다.
+    학부생 시절 아르바이트하던 카페 사장님들은 따로 매니저를 두지 않으시고 두 분이 3개의 가게를 운영하셨습니다.
+    그러던 중 아르바이트생이 자기가 출근, 퇴근한 시간을 입력하여 업무 시간을 기록하는 앱은 있는데 사장이 아르바이트생들의 근무 시간을 기록하고 그에 따라 월급을 계산해주는 앱은 없다며 간단하게라도 만들어달라고 부탁하셨습니다.
+    가장 먼저 요구사항을 정리하고 앱의 형태와 구조를 결정하였습니다.
+    달력 구조의 뷰를 구성하기 위해 컴포넌트 단위로 설계하고 개발하였으며, 이 때 생명주기에 대해서 충분히 고려하고 컴포넌트를 구분해야한다는 사실을 배웠습니다.
+    shared preference를 이용해 데이터를 저장, 관리하였으며 db 설계도 직접 하면서 화면과 데이터의 연동을 위해 고려해야하는 부분 등 앱 개발의 전반적인 부분에서 많이 공부하게 되는 좋은 경헙이었습니다.
+    이 경험을 통해 개념을 공부하고 과제에 적용하는 학부과정은 실전과 많이 다를 수 있다는 것을 깨달았습니다.
+    그래서 이후에 공부할 때 이론적으로 이해하는 것에서 공부를 끝내지 않고 실전에 어떻게 적용되는지 조금 더 깊게 파고들고 생각하는 좋은 공부 습관이 생겼습니다.
+    이러한 습관은 앞으로 많은 것을 배워야 하는 처지인 저에게 강점이면서 동시에 경쟁력이 될 수 있다고 생각합니다.`
 }, {
-    title: 'TV APP Renewal',
-    tagList: ['TCommerce', 'Vue.js'],
+    title: 'T-Commerce Service App 개발',
+    tagList: ['T-Commerce', 'Vue.js'],
     form: 'TV App',
     language: ['html', 'css', 'javascript'],
-    content: `Aircode에 근무하면서 Vue.js를 이용해 TV App을 개발하였습니다.
+    content: `Aircode에 근무하면서 Vue.js를 이용해 T-Commerce Service App을 개발하였습니다.
     TV App이라는 특징이 있고, 회사 내부 Framework를 일부 사용하긴 하지만 전체적으로 WebView라는 틀 안에서 Vue.js를 사용하기 때문에 일반적인 웹 개발 경험과 유사하게 Vue.js의 다양한 기능에 대해서 익힐 수 있었습니다.
     대표적으로 component, prototype의 개념과 props, mixin, computed등 개념에 대해 익히고 사용하였는데, Vue라는 프레임워크에 대한 이해도 뿐만 아니라 프론트엔드 개발에 대한 전반적인 이해도를 높일 수 있었습니다.
     가장 핵심이 되는 부분은 MVVM패턴이라고 느껴졌는데 개념적으로는 알고 있었지만 실제 개발에 적용해보면서 Model, View, ViewModel이 각각 무엇인지 정확하게 알게되었고,
